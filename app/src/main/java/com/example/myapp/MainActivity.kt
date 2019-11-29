@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
-
         button_reset.setOnClickListener { v ->  
             seekBar.progress = 0
         }
